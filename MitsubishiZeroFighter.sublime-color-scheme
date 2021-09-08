@@ -1,0 +1,253 @@
+{
+    "name": "Mitsubishi Zero Fighter",
+    "globals":
+    {
+        "background": "#e4dcd9",
+        "foreground": "#cd2c3e",
+        "caret": "#F0A860",
+        "line_highlight": "#C0A8A8",
+        "misspelling": "",
+        "fold_marker": "#F0A860",
+        "minimap_border": "",
+        "accent": "#cd2c3e",
+        "popup_css": "html { background-color: #e4dcd9; color: #cd2c3e; font-family: \"Iosevka TermLig Curly Slab\" } a { color: #5b6e74 } h1 { color: #F0A860; background-color: #5b6e74; border-style: solid } .container .card-body { color: #fff }",
+        "phantom_css": "",
+        "sheet_css": "html { --background: #e4dcd9 }",
+        "gutter": "#5b6e74",
+        "gutter_foreground": "#fff",
+        "gutter_foreground_highlight": "#F0A860",
+        "line_diff_width": "8",
+        "line_diff_added": "#fff",
+        "line_diff_modified": "#F0A860",
+        "line_diff_deleted": "#cd2c3e",
+        "selection": "#5b6e74",
+        "selection_foreground": "#F0A860",
+        "selection_border": "#fff",
+        "selection_border_width": "3",
+        "inactive_selection": "",
+        "inactive_selection_foreground": "",
+        "selection_corner_style": "cut",
+        "selection_corner_radius": "4",
+        "highlight": "#fff",
+        "find_highlight": "#5b6e74",
+        "find_highlight_foreground": "#F0A860",
+        "guide": "#cd2c3e",
+        "active_guide": "#5b6e74",
+        "stack_guide": "#A8A8A8",
+        "brackets_options": "bold",
+        "brackets_foreground": "#F0A860",
+        "bracket_contents_options": "foreground bold",
+        "bracket_contents_foreground": "#cd2c3e",
+        "tags_options": "",
+        "tags_foreground": "",
+        "shadow": "#5b6e74",
+        "shadow_width": "15"
+    },
+    "rules":
+    [
+        {
+            "scope": "entity.name",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "entity.other",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "meta",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "entity.name.section",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "variable",
+            "foreground":
+            [
+                "#306060",
+                "#306060"
+            ],
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "variable.parameter",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "constant",
+            "foreground": "#79adad",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "#79adad",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "foreground": "#A8A8A8",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "stippled_underline bold"
+        },
+        {
+            "scope": "storage.type.function, storage.type.class",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "storage.modifier",
+            "foreground": "#306060",
+            "background": "#F0A860",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "support",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "keyword",
+            "foreground": "#cd2c3e",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "keyword.control",
+            "foreground": "#e8741f",
+            "background": "#e4dcd9",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "keyword.operator, punctuation",
+            "foreground": "#e8741f",
+            "background": "#e4dcd9",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+
+        {
+            "scope": "keyword.other.documentation",
+            "foreground": "#e8741f",
+            "background": "#e4dcd9",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "string",
+            "foreground": "#306060",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "scope": "punctuation.definition.comment",
+            "foreground": "#808080",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "comment",
+            "foreground": "#A8A8A8",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "italic"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "scope": "invalid.deprecated",
+            "foreground": "#5b6e74",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "italic"
+        }
+    ]
+}
